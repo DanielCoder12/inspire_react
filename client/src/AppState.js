@@ -8,6 +8,7 @@ class ObservableAppState {
   /** @type {import('./models/Account.js').Account} */
   account = null
   backgroundImage = {}
+  weather = {}
 
   constructor() {
     makeAutoObservable(this)
