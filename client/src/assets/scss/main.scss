@@ -44,3 +44,9 @@ form:invalid button[type="submit"] {
   filter: grayscale(1);
   pointer-events: none;
 }
+
+.background-blur {
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.275);
+
+}
